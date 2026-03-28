@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background-color: #f8f9fa;">
+
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e9ecef; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dee2e6; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#backgroundGradient)" />
+
+  <!-- Main Container for Illustration -->
+  <g transform="translate(50, 50)">
+
+    <!-- Left Side: AI Brain Icon -->
+    <g transform="translate(50, 150)">
+      <circle cx="100" cy="100" r="60" fill="#007bff" opacity="0.9"/>
+      <circle cx="100" cy="100" r="50" fill="#ffffff"/>
+      <path d="M100,40 Q120,60 100,80 Q80,60 100,40 Z" fill="#007bff" opacity="0.9"/>
+      <path d="M100,120 Q120,140 100,160 Q80,140 100,120 Z" fill="#007bff" opacity="0.9"/>
+      <rect x="80" y="90" width="40" height="20" fill="#ffffff" rx="5"/>
+      <rect x="90" y="70" width="20" height="40" fill="#ffffff" rx="5"/>
+      <text x="100" y="110" font-family="Arial, sans-serif" font-size="20" fill="#007bff" text-anchor="middle" font-weight="bold">AI</text>
+    </g>
+
+    <!-- Center: Connecting Lines -->
+    <line x1="250" y1="250" x2="350" y2="250" stroke="#6c757d" stroke-width="4" stroke-dasharray="10,5"/>
+    <line x1="250" y1="350" x2="350" y2="350" stroke="#6c757d" stroke-width="4" stroke-dasharray="10,5"/>
+    <line x1="250" y1="250" x2="250" y2="350" stroke="#6c757d" stroke-width="4" stroke-dasharray="10,5"/>
+    <line x1="350" y1="250" x2="350" y2="350" stroke="#6c757d" stroke-width="4" stroke-dasharray="10,5"/>
+
+    <!-- Right Side: Historical Map & Annotation -->
+    <g transform="translate(400, 100)">
+      <!-- Abstract Map Shape -->
+      <path d="M50,50 L150,50 L175,100 L150,150 L50,150 L25,100 Z" fill="#adb5bd" />
+      <path d="M50,50 L150,50 L175,100 L150,150 L50,150 L25,100 Z" fill="none" stroke="#495057" stroke-width="3"/>
+
+      <!-- Abstract Annotation Markers -->
+      <circle cx="70" cy="70" r="10" fill="#28a745" />
+      <circle cx="120" cy="120" r="10" fill="#dc3545" />
+      <circle cx="100" cy="100" r="10" fill="#ffc107" />
+
+      <!-- Annotation Text/Icon Placeholder -->
+      <g transform="translate(190, 80)">
+        <rect x="0" y="0" width="60" height="20" fill="#ced4da" rx="3"/>
+        <rect x="0" y="30" width="40" height="15" fill="#ced4da" rx="3"/>
+      </g>
+    </g>
+
+    <!-- Title Text -->
+    <text x="350" y="70" font-family="Arial, sans-serif" font-size="28" fill="#343a40" text-anchor="middle" font-weight="bold">AI-Powered</text>
+    <text x="350" y="110" font-family="Arial, sans-serif" font-size="28" fill="#343a40" text-anchor="middle" font-weight="bold">Niche Historical Map</text>
+    <text x="350" y="150" font-family="Arial, sans-serif" font-size="28" fill="#343a40" text-anchor="middle" font-weight="bold">Digitization & Annotation Tool</text>
+
+  </g>
+
+</svg>
